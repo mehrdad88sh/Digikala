@@ -1,27 +1,43 @@
 # Automation Test On Digikala
 
-### Installation:
+### Test Scenario :
 
-- Install python 3.8
+- مرتب سازی قیمت ها بر اساس گرانترین
 
-- Create virtual environment in terminal
+### Test Case :
+
+- کاربر به دسته بندی لپ تاپ برود
+- در قسمت مرتب سازی گزینه گرانترین را انتخاب کند
+- قیمت لپ تاپ ها از گرانترین به ارزان ترین مرتب شود
+
+### Pre-Conditions :
+
+- پیش شرط های نصب و فعال سازی محیط تست و اجرای تست
+
+-  python 3.8 نصب
+
+- دستور زیر را در ترمینال اجرا کنید تا محیط تست ایجاد شود
 
       python3 -m virtualenv venv
 
-- Activate virtual environment in terminal
+- در ترمینال با دستور زیر محیط تست را فعال کنید
 
       source venv/bin/activate
 
-- Download the latest version of chrome driver:
+- برای اجرای تست در مرورگر کروم آخرین نسخه درایور را دانلود کرده و در دایرکتوری زیر قرار دهید:
 
       https://sites.google.com/chromium.org/driver/
 
-- import chrome driver in "venv/bin" directory
+- "venv/bin" directory
 
-- Install requirements file in terminal
+- در ترمینال با دستور زیر کتابخانه های مربوط به ربات فریمورک را نصب کنید
 
       pip install -r requirements.txt
 
-- Run test file in terminal:
+- در ترمینال با دستور زیر فایل تست را اجرا کنید
 
       robot ~/test.robot
+
+### Expected Result :
+
+- قیمت ها بر اساس گرانترین مرتب شود
