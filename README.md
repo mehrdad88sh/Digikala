@@ -12,7 +12,7 @@
 
 ### Pre-Conditions :
 
-- پیش شرط های نصب و فعال سازی محیط تست و اجرای تست
+ نصب و فعال سازی محیط تست و اجرای تست
 
 -  python 3.8 نصب
 
@@ -28,7 +28,7 @@
 
       https://sites.google.com/chromium.org/driver/
 
-- "venv/bin" directory
+      "venv/bin" directory
 
 - در ترمینال با دستور زیر کتابخانه های مربوط به ربات فریمورک را نصب کنید
 
